@@ -1,0 +1,42 @@
+table {
+  border-spacing: 8px;
+  border-collapse: separate;
+  border-top: none;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  border-top: none;
+  text-align: center;
+}
+
+.group1 {
+  background-color: #ffcc33;
+}
+
+.period1>.group1, .period2>.group14, .period2>.group15, .period2>.group16, .period3>.group15, .period3>.group16, .period4>.group16 {
+  background-color: #66ff00;
+}
+
+.group2 {
+  background-color: #ffff66;
+}
+
+.group3, .group4, .group5, .group6, .group7, .group8, .group9, .group10, .group11, .group12 {
+  background-color: #9999cc;
+}
+
+.period2>.group13, .period3>.group14, .period4>.group14, .period4>.group15, .period5>.group15, .period5>.group16, .period6>.group16 {
+  background-color: #99cc99;
+}
+
+.period3>.group13, .period4>.group13, .period5>.group13, .period5>.group14, .period6>.group13, .period6>.group14, .period6>.group15, .period7>.group13, .period7>.group14, .period7>.group15, .period7>.group16 {
+  background-color: #99ccff;
+}
+
+.group17 {
+  background-color:  #00ffff;
+}
+
+.group18 {
+  background-color: #33cccc;
+}
